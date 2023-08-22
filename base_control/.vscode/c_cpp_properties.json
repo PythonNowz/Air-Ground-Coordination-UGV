@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/bingda/ORB_ws/devel/include/**",
+        "/home/bingda/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/bingda/catkin_ws/src/bingda_ros1_noetic/depend_pkg/ros_astra_camera/include/**",
+        "/home/bingda/ORB_ws/src/bingda_orb_slam/include/**",
+        "/home/bingda/catkin_ws/src/bingda_ros1_noetic/depend_pkg/camera_umd/jpeg_streamer/include/**",
+        "/home/bingda/catkin_ws/src/bingda_ros1_noetic/lidar/ldlidar_stl_ros/include/**",
+        "/home/bingda/catkin_ws/src/bingda_ros1_noetic/lidar/sc_mini/include/**",
+        "/home/bingda/catkin_ws/src/bingda_ros1_noetic/trajectory_control/include/**",
+        "/home/bingda/ORB_ws/src/usb_cam/include/**",
+        "/home/bingda/catkin_ws/src/bingda_ros1_noetic/depend_pkg/camera_umd/uvc_camera/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-arm64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

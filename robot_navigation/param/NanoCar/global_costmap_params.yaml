@@ -1,0 +1,12 @@
+global_costmap:
+  global_frame: map
+  robot_base_frame: base_footprint
+  update_frequency: 1.0 #代价地图更新频率
+  publish_frequency: 0.5 #代价地图发布频率
+  # static_map: true 
+  transform_tolerance: 0.5 #等待坐标变幻发布信息的超时时间
+  plugins:
+    - {name: static_layer,            type: "costmap_2d::StaticLayer"}
+    - {name: obstacle_layer,          type: "costmap_2d::VoxelLayer"}
+    - {name: costmap_prohibition_layer,            type: "costmap_prohibition_layer_namespace::CostmapProhibitionLayer"}
+    - {name: inflation_layer,         type: "costmap_2d::InflationLayer"}

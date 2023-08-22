@@ -1,0 +1,4 @@
+<launch>
+    <arg name="map" default="gmapping.yaml"/>
+    <node name="map_server" pkg="map_server" type="map_server" args="$(find robot_navigation)/maps/$(arg map)"/>
+</launch>
